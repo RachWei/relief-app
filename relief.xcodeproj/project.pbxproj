@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50145CA8223F204700A59280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50145CA7223F204700A59280 /* AppDelegate.swift */; };
+		50145CAA223F204700A59280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50145CA9223F204700A59280 /* ViewController.swift */; };
+		50145CAD223F204700A59280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50145CAB223F204700A59280 /* Main.storyboard */; };
+		50145CAF223F204700A59280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50145CAE223F204700A59280 /* Assets.xcassets */; };
+		50145CB2223F204700A59280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50145CB0223F204700A59280 /* LaunchScreen.storyboard */; };
+		50145CBD223F204800A59280 /* reliefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50145CBC223F204800A59280 /* reliefTests.swift */; };
+		50145CC8223F204800A59280 /* reliefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50145CC7223F204800A59280 /* reliefUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50145CB9223F204800A59280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50145C9C223F204700A59280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50145CA3223F204700A59280;
+			remoteInfo = relief;
+		};
+		50145CC4223F204800A59280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50145C9C223F204700A59280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50145CA3223F204700A59280;
+			remoteInfo = relief;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50145CA4223F204700A59280 /* relief.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = relief.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50145CA7223F204700A59280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50145CA9223F204700A59280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50145CAC223F204700A59280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50145CAE223F204700A59280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50145CB1223F204700A59280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50145CB3223F204800A59280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50145CB8223F204800A59280 /* reliefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reliefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50145CBC223F204800A59280 /* reliefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reliefTests.swift; sourceTree = "<group>"; };
+		50145CBE223F204800A59280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50145CC3223F204800A59280 /* reliefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reliefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50145CC7223F204800A59280 /* reliefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reliefUITests.swift; sourceTree = "<group>"; };
+		50145CC9223F204800A59280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50145CA1223F204700A59280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50145CB5223F204800A59280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50145CC0223F204800A59280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50145C9B223F204700A59280 = {
+			isa = PBXGroup;
+			children = (
+				50145CA6223F204700A59280 /* relief */,
+				50145CBB223F204800A59280 /* reliefTests */,
+				50145CC6223F204800A59280 /* reliefUITests */,
+				50145CA5223F204700A59280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50145CA5223F204700A59280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50145CA4223F204700A59280 /* relief.app */,
+				50145CB8223F204800A59280 /* reliefTests.xctest */,
+				50145CC3223F204800A59280 /* reliefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50145CA6223F204700A59280 /* relief */ = {
+			isa = PBXGroup;
+			children = (
+				50145CA7223F204700A59280 /* AppDelegate.swift */,
+				50145CA9223F204700A59280 /* ViewController.swift */,
+				50145CAB223F204700A59280 /* Main.storyboard */,
+				50145CAE223F204700A59280 /* Assets.xcassets */,
+				50145CB0223F204700A59280 /* LaunchScreen.storyboard */,
+				50145CB3223F204800A59280 /* Info.plist */,
+			);
+			path = relief;
+			sourceTree = "<group>";
+		};
+		50145CBB223F204800A59280 /* reliefTests */ = {
+			isa = PBXGroup;
+			children = (
+				50145CBC223F204800A59280 /* reliefTests.swift */,
+				50145CBE223F204800A59280 /* Info.plist */,
+			);
+			path = reliefTests;
+			sourceTree = "<group>";
+		};
+		50145CC6223F204800A59280 /* reliefUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50145CC7223F204800A59280 /* reliefUITests.swift */,
+				50145CC9223F204800A59280 /* Info.plist */,
+			);
+			path = reliefUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50145CA3223F204700A59280 /* relief */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50145CCC223F204800A59280 /* Build configuration list for PBXNativeTarget "relief" */;
+			buildPhases = (
+				50145CA0223F204700A59280 /* Sources */,
+				50145CA1223F204700A59280 /* Frameworks */,
+				50145CA2223F204700A59280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = relief;
+			productName = relief;
+			productReference = 50145CA4223F204700A59280 /* relief.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50145CB7223F204800A59280 /* reliefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50145CCF223F204800A59280 /* Build configuration list for PBXNativeTarget "reliefTests" */;
+			buildPhases = (
+				50145CB4223F204800A59280 /* Sources */,
+				50145CB5223F204800A59280 /* Frameworks */,
+				50145CB6223F204800A59280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50145CBA223F204800A59280 /* PBXTargetDependency */,
+			);
+			name = reliefTests;
+			productName = reliefTests;
+			productReference = 50145CB8223F204800A59280 /* reliefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50145CC2223F204800A59280 /* reliefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50145CD2223F204800A59280 /* Build configuration list for PBXNativeTarget "reliefUITests" */;
+			buildPhases = (
+				50145CBF223F204800A59280 /* Sources */,
+				50145CC0223F204800A59280 /* Frameworks */,
+				50145CC1223F204800A59280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50145CC5223F204800A59280 /* PBXTargetDependency */,
+			);
+			name = reliefUITests;
+			productName = reliefUITests;
+			productReference = 50145CC3223F204800A59280 /* reliefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50145C9C223F204700A59280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "technovation thursdays";
+				TargetAttributes = {
+					50145CA3223F204700A59280 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					50145CB7223F204800A59280 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50145CA3223F204700A59280;
+					};
+					50145CC2223F204800A59280 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50145CA3223F204700A59280;
+					};
+				};
+			};
+			buildConfigurationList = 50145C9F223F204700A59280 /* Build configuration list for PBXProject "relief" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50145C9B223F204700A59280;
+			productRefGroup = 50145CA5223F204700A59280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50145CA3223F204700A59280 /* relief */,
+				50145CB7223F204800A59280 /* reliefTests */,
+				50145CC2223F204800A59280 /* reliefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50145CA2223F204700A59280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50145CB2223F204700A59280 /* LaunchScreen.storyboard in Resources */,
+				50145CAF223F204700A59280 /* Assets.xcassets in Resources */,
+				50145CAD223F204700A59280 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50145CB6223F204800A59280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50145CC1223F204800A59280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50145CA0223F204700A59280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50145CAA223F204700A59280 /* ViewController.swift in Sources */,
+				50145CA8223F204700A59280 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50145CB4223F204800A59280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50145CBD223F204800A59280 /* reliefTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50145CBF223F204800A59280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50145CC8223F204800A59280 /* reliefUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50145CBA223F204800A59280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50145CA3223F204700A59280 /* relief */;
+			targetProxy = 50145CB9223F204800A59280 /* PBXContainerItemProxy */;
+		};
+		50145CC5223F204800A59280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50145CA3223F204700A59280 /* relief */;
+			targetProxy = 50145CC4223F204800A59280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50145CAB223F204700A59280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50145CAC223F204700A59280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50145CB0223F204700A59280 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50145CB1223F204700A59280 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50145CCA223F204800A59280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50145CCB223F204800A59280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50145CCD223F204800A59280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = relief/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "technovation-thursdays.relief";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50145CCE223F204800A59280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = relief/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "technovation-thursdays.relief";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50145CD0223F204800A59280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = reliefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "technovation-thursdays.reliefTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/relief.app/relief";
+			};
+			name = Debug;
+		};
+		50145CD1223F204800A59280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = reliefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "technovation-thursdays.reliefTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/relief.app/relief";
+			};
+			name = Release;
+		};
+		50145CD3223F204800A59280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = reliefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "technovation-thursdays.reliefUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = relief;
+			};
+			name = Debug;
+		};
+		50145CD4223F204800A59280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = reliefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "technovation-thursdays.reliefUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = relief;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50145C9F223F204700A59280 /* Build configuration list for PBXProject "relief" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50145CCA223F204800A59280 /* Debug */,
+				50145CCB223F204800A59280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50145CCC223F204800A59280 /* Build configuration list for PBXNativeTarget "relief" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50145CCD223F204800A59280 /* Debug */,
+				50145CCE223F204800A59280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50145CCF223F204800A59280 /* Build configuration list for PBXNativeTarget "reliefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50145CD0223F204800A59280 /* Debug */,
+				50145CD1223F204800A59280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50145CD2223F204800A59280 /* Build configuration list for PBXNativeTarget "reliefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50145CD3223F204800A59280 /* Debug */,
+				50145CD4223F204800A59280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50145C9C223F204700A59280 /* Project object */;
+}
